@@ -1,5 +1,5 @@
 @import './normalize';
 @import './base';
 @import './helpers/variables.scss';
-
-
+@import '../components/loader/loader.scss';
+@import '../components/back-to-top/back-to-top.scss';

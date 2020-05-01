@@ -14,3 +14,27 @@ img {
   height: auto;
 }
 
+.pnotify-pre-line {
+  line-height: initial;
+}
+
+.photo-catd--image,
+.basicLightbox {
+  cursor: pointer;
+}
+
+.large-image {
+  z-index: 2;
+}
+
+.basicLightbox__placeholder {
+  position: relative;
+}
+
+.control-btn,
+.control-loader {
+  position: fixed;
+  left: 0;
+  top: 50vh;
+  z-index: 1000;
+}
