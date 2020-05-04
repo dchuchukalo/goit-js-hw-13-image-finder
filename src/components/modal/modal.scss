@@ -1,0 +1,36 @@
+
+.photo-catd--image,
+.basicLightbox {
+  cursor: pointer;
+}
+
+.control-btn {
+  z-index: 10000;
+}
+
+.control-btn,
+div .control-loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+div .control-loader {
+  right: 0;
+  left: 0;
+}
+
+.control-modal > .control-btn {
+  height: 60px;
+  width: 60px;
+  line-height: 46px;
+}
+
+.prev-btn {
+  left: 5%;
+}
+
+.next-btn {
+  right: 5%;
+}

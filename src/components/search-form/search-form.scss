@@ -1,0 +1,24 @@
+.container {
+    padding-top: 120px;
+
+}
+
+.search-form {
+  margin: 0;
+}
+
+.clear-btn {
+  width: 36px;
+  padding: 0;
+}
+
+.search-form-js {
+  @media screen and (max-width: 425px) {
+    padding: 20px 0;
+  }
+
+
+@media screen  and (min-width: 426px){
+  padding: 50px  0;
+}
+}

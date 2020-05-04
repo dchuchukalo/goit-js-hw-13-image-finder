@@ -29,7 +29,7 @@ infScroll.on('load', function (response) {
 
   const itemsHTML = imageTpl(hits);
   proxyElem.innerHTML = itemsHTML;
-  const items = proxyElem.querySelectorAll('.gallery-item');
+  const items = proxyElem.querySelectorAll('.gallery--item');
   infScroll.appendItems(items);
 });
 

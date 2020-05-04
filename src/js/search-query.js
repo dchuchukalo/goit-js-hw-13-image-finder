@@ -3,6 +3,7 @@ import refs from './refs';
 import uploadRequest from './infinite-scroll';
 
 refs.searchFormRef.addEventListener('submit', onSubmit);
+refs.clearBtnRef.addEventListener('click', clearForm);
 
 function onSubmit(event) {
   event.preventDefault();
@@ -10,12 +11,17 @@ function onSubmit(event) {
   clearImagesContainer();
 
   if (query.length === 0) {
-    showStackTopRight('error')
+    showStackTopRight('error');
   }
   if (query.length > 0) {
     uploadRequest(query);
-    showStackTopRight('success')
+    showStackTopRight('success');
   }
+}
+
+function clearForm() {
+  clearImagesContainer();
+  refs.inputRef.value = ''
 }
 
 function clearImagesContainer() {
