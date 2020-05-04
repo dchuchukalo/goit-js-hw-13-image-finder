@@ -1,6 +1,5 @@
 .container {
-    padding-top: 120px;
-
+  padding: 90px 0 10px 0;
 }
 
 .search-form {
@@ -13,12 +12,34 @@
 }
 
 .search-form-js {
+  padding: 50px 0;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+}
+
+.fixed + .line-js {
+  margin-top: 137px;
+}
+
+.container,
+.fixed {
   @media screen and (max-width: 425px) {
-    padding: 20px 0;
+    width: 220px;
   }
 
+  @media screen and (min-width: 426px) and (max-width: 767px) {
+    width: 380px;
+  }
 
-@media screen  and (min-width: 426px){
-  padding: 50px  0;
-}
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    width: 640px;
+  }
+
+  @media screen and (min-width: 992px){
+    width: 960px;
+  }
 }
