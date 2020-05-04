@@ -27,6 +27,7 @@
 }
 
 .photo-card--image-bg {
+  cursor: pointer;
   @media screen and (max-width: 991px) {
     margin-bottom: 10px;
   }
